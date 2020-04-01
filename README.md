@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+# Welcome to yyhao's GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/yyhaos/yyhaos.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Hi, I am yyhao, a cs student in BNU, and welcome !  
+I put all my codes, projects, programs here, to share with u. If u have any question or idea , dont hestate to contact me.  
+My e-mail : 325063151@qq.com  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Hi ，我是北师大cs在读学生，欢迎！  
+这里有课上的作业、课后的小项目、水科研、数学建模、icpc比赛等 ， 敬请指教。  
+邮箱：325063151@qq.com 或者直接加好友。  
 
-### Markdown
+## Rpositories  
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yyhaos/yyhaos.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+ [Data-Structures-and-Algorithm](https://github.com/yyhaos/Data-Structures-and-Algorithms)  
+ [Competitions](https://github.com/yyhaos/Competitions)  
+ [Scientific-research](https://github.com/yyhaos/Scientific-research)  
+ [Mathmatic-Modeling](https://github.com/yyhaos/Mathmatic-Modeling)  
+ [2018-programming-foundation](https://github.com/yyhaos/2018-programming-foundation)  
+ [C-plus-programming-course](https://github.com/yyhaos/C-plus-programming-course)  
