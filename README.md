@@ -1,7 +1,7 @@
 # Welcome to yyhao's GitHub Pages
 
 Hi, I am yyhao, a cs student in BNU, and welcome !  
-I put all my codes, projects, programs here, to share with u. If u have any question or idea , dont hestate to contact me.  
+I put all my codes, projects, programs here, to share with u. If u have any question or idea , dont hesitate to contact me.  
 My e-mail : 325063151@qq.com  
 
 Hi ，我是北师大cs在读学生，欢迎！  
