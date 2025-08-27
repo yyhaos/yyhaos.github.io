@@ -1,0 +1,201 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{parskip} 
+\usepackage{hologo}
+
+%other packages for formatting
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.85, top=.4in, bottom=.4in]{geometry}
+
+%tabularx environment
+\usepackage{tabularx}
+
+%for lists within experience section
+\usepackage{enumitem}
+
+% centered version of 'X' col. type
+\newcolumntype{C}{>{\centering\arraybackslash}X} 
+
+%to prevent spillover of tabular into next pages
+\usepackage{supertabular}
+\usepackage{tabularx}
+\newlength{\fullcollw}
+\setlength{\fullcollw}{0.42\textwidth}
+
+%custom \section
+\usepackage{titlesec}				
+\usepackage{multicol}
+\usepackage{multirow}
+
+%CV Sections inspired by: 
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{1pt}{2pt}{2pt}
+
+%for publications
+\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
+
+%Setup hyperref package, and colours for links
+\usepackage[unicode, draft=false]{hyperref}
+\color[HTML]{110223}%{1C033C}
+\setlength\bibitemsep{1em}
+
+%for social icons
+\usepackage{fontawesome5}
+% \usepackage{times}
+
+% For underline
+\usepackage[normalem]{ulem}
+
+
+\begin{document}
+
+% non-numbered pages
+\pagestyle{empty} 
+
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\Huge{Yuhao Yuan} \\[6pt]
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{@{} C @{} C @{} C}
+{{\raisebox{-0.05\height}{\faEnvelope} yuanyuhaoapply@163.com}} 
+{{\raisebox{-0.05\height}{\faMobile} +1 582 203 8954}} 
+{{\raisebox{-0.05\height}{\faMapMarker} Toronto}}
+{{\href{https://yyhaos.github.io/}{\raisebox{-0.05\height}{\faGithub} https://yyhaos.github.io/}}}
+\end{tabularx}
+
+%EDUCATION
+\hfill
+\section{\textbf{EDUCATION}}
+\begin{tabularx}{\linewidth}{ @{}X r@{} }
+    \textbf{University of Toronto} & \textbf{Sept 2025 -- Now} \\[4pt]
+    \textbf{Master of Education}, Ends in Jul 2027\\[4pt]
+\end{tabularx}
+\begin{tabularx}{\linewidth}{ @{}X r@{} }
+    \textbf{Beijing Normal University} & \textbf{Sept 2016 -- Jul 2021} \\[4pt]
+    \textbf{Bachelor of Computer Science}\\[4pt]
+\end{tabularx}
+\hfill
+%EXPERIENCE
+\section{\textbf{WORK EXPERIENCE}}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Software Developer} - ByteDance Ltd. China \hfill \textbf{June 2021 - Jul 2024} \\[4pt]
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=2pt]
+        \item Supported Continuous Integration and Continuous Delivery of basic components for China Tiktok iOS Application.
+        \item Worked on solving user needs and making the app easier to use in different languages and regions.
+        \item Developed two new applications as the main developer.
+    \end{itemize}
+\end{minipage}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{FrontEnd Software Developer Internship} - Alibaba Ltd. China \hfill \textbf{Jun 2020 - Sept 2020} \\[4pt]
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=2pt]
+        \item Used a fast technique called SIMD (Single Instruction, Multiple Data) to apply a blur effect and smooth out the pictures.
+    \end{itemize}
+\end{minipage}
+\end{tabularx}
+
+%ACADEMIC
+\hfill
+\section{\textbf{ACADEMIC EXPERIENCE}}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+    \textbf{Software Engineer} - pyKeyATM project \hfill \textbf{Jan 2025 - Now} \\[4pt]
+    \begin{minipage}[t]{\linewidth}
+        \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=2pt]
+            \item Collaborated with Dr. Ji at the University of Toronto to Develop the pyKeyATM R package, designed for astracting topic words from documents.
+        \end{itemize}
+    \end{minipage}
+    \end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+    \textbf{Software Engineer} - rBKT project \hfill \textbf{Aug 2024 - Oct 2024} \\[4pt]
+    \begin{minipage}[t]{\linewidth}
+        \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=2pt]
+            \item Collaborated with Dr. Ji at the University of Toronto to Develop the BKT (\href{https://github.com/CAHLR/pyBKT}{Bayesian Knowledge Tracing in Python}) R package, designed for modeling and analyzing student learning behavior over time.
+            \item The project integrates advanced statistical techniques to help researchers and educators track and improve learning outcomes based on cognitive modeling.
+        \end{itemize}
+    \end{minipage}
+    \end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Software Engineer} - Entrepreneurial Project \hfill \textbf{Aug 2021 - Jul 2024} \\[4pt]
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=2pt]
+        \item Developed an Android App called “keysManager” using KotlirLanguage
+        \item Launch the product outside of school, continuously tracked the users' online activities, and updated the
+        App according to the target market's feedback
+        \item Accomplished the goal of the App to manage user's passwords,create secure passwords, set up network
+        Keychain, and automatically sync all data while maintainingnetwork security
+    \end{itemize}
+\end{minipage}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Researcher} - Graduation Design \hfill \textbf{Aug 2021 - Jul 2024} \\[4pt]
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=2pt]
+        \item Generating 3D model texture maps from actual images.
+        \item An algorithm using convex hull nearest matching points to iteratively refine the projection matrix.
+        \item Introduced an automated process for generating texture maps from multiple images, significantly reducing the need for manually marked initial correspondence points.
+    \end{itemize}
+\end{minipage}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+    \textbf{Researcher} - Team Performance Evaluation Model in Soccer \hfill \textbf{Feb 2020 - Apr 2020} \\[4pt]
+    \begin{minipage}[t]{\linewidth}
+        \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=2pt]
+            \item Collaborated on developing a comprehensive model to evaluate soccer team performance using network analysis of player interactions.
+            \item Led the team and won the first prize.
+        \end{itemize}
+    \end{minipage}
+    \end{tabularx}
+
+%AWARDS
+\hfill
+\section{\textbf{AWARDS}}
+\begin{minipage}[t]{\linewidth}
+\begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=2pt]
+    \item National Competition Medalist Scholarship \hfill \textbf{2021}
+    \item MCM/ICM (Mathematic-Modeling) Finalist \hfill \textbf{2020}
+    \item MCM/ICM (Mathematic-Modeling) Meritorious \hfill \textbf{2018}
+    \item International Collegiate Programming Contest (Shenyang) Silver Meda  \hfill \textbf{2019}
+    \item International Collegiate Programming Contest (Jiaozuo) Bronze MTedal \hfill \textbf{2018} 
+    \item International Collegiate Programming Contest (Beijing) Bronze Medal \hfill \textbf{2017} 
+    \item China Collegiate Computing Contest 3rd Place (Group) \hfill \textbf{2019}
+    \item China Collegiate Programming Contest (Harbin) Silver Medal \hfill \textbf{2019} 
+    \item China Collegiate Programming Contest (Qinhuangdao) Bronze Meddal \hfill \textbf{2018} 
+    \item BNU Programming Contest (7th annual contest) 2nd Place \hfill \textbf{2018} 
+    \item BNU Programming Contest (6th annual contest) 2nd Prize \hfill \textbf{2017}
+    \item Jingshi Academic Excellence Scholarship \hfill \textbf{2017}
+    \item[] 
+\end{itemize}
+\end{minipage}
+
+%Software Language
+\section{\textbf{SOFTWARE LANGUAGE}}
+\begin{minipage}[t]{\linewidth}
+\begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=2pt]
+    \item Swift
+    \item R
+    \item Python
+    \item C
+    \item C++
+    \item Ruby
+    \item javascript
+    \item bash
+    \item[] 
+\end{itemize}
+\end{minipage}
+
+
+
+
+
+\end{document}
