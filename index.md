@@ -1,12 +1,15 @@
 # Welcome to yyhao's Github Pages
 
-Hi, I am yyhao, a master student in University of Toronto, and welcome!
-I put all my codes, projects, programs here, to share with u. If u have any question or idea , dont hesitate to contact me.  
-My e-mail : yuanyuhaoapply@163.com
+Hello, I am Yuhao, a Master’s student at the University of Toronto.  
+Here you will find my code, projects, and programs, which I am happy to share.  
+If you have any questions or ideas, please feel free to contact me.     
+Email : yuanyuhaoapply@163.com  
+Resume : [link](https://github.com/yyhaos/yyhaos.github.io/raw/refs/heads/master/resume/.latex/YuhaosResume.pdf)
 
 Hi ，我是一名多伦多大学教育学在读硕士，欢迎！  
 这里有大学时课上的作业、课后的小项目、水科研、数学建模、icpc比赛等 ， 敬请指教。  
 邮箱：yuanyuhaoapply@163.com  
+简历：[link](https://github.com/yyhaos/yyhaos.github.io/raw/refs/heads/master/resume/.latex/YuhaosResume.pdf)
 
 ## Rpositories  
 
