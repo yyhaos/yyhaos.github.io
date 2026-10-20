@@ -1,2 +1,4 @@
 resume/.latex/*
 !resume/.latex/*.pdf
+resume/*
+!resume/*.pdf

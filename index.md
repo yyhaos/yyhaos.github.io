@@ -6,7 +6,7 @@ Here you will find my code, projects, and programs. I am always happy to connect
 
 Email: [yuhao.yuan@mail.utoronto.com](mailto:yuhao.yuan@mail.utoronto.com)
 
-Resume: [View my resume](https://github.com/yyhaos/yyhaos.github.io/raw/refs/heads/master/resume/.latex/YuhaosResume.pdf)
+Resume: [View my resume](https://github.com/yyhaos/yyhaos.github.io/raw/refs/heads/master/resume/YuhaosResume.pdf)
 
 ## Publications
 
